@@ -48,7 +48,7 @@
 		return { data, error }
 	}
 	```
-## Prevents unnecessary reactivity overhead
+# Prevents unnecessary reactivity overhead
 
 ```vue
 <script setup lang="ts">
