@@ -26,6 +26,10 @@
 	- `Vue` Composition `Api` function automatically tracks reactive data
 	- `rerun` in any change
 	- `watchOptions:{immediate:true,deep:true}` can be simplified by  `watchEffect`
+- watch `toValue(target)` => `target` accept [`MaybeRefOrGetter`](Types#MaybeRefOrGetter) `type`
+	```ts
+	watch(()=>toValue(target))
+	```
 # Composable
 -  `useFetch`
 	```ts
@@ -36,7 +40,7 @@
 		watchEffect(async () => {
 		const reactiveURL = toValue(URL) // ref computed => value
 		try {
-			fetch(reactiveURL).then(res => res.json()).then((json) => (data.value = json))
+			fetch(reactiveURL).then(res => res.json()).then((json) => (data.value = json))``
 		} catch (err: any) {
 			error.value = err;
 			}
@@ -44,7 +48,6 @@
 		return { data, error }
 	}
 	```
-
 ## Prevents unnecessary reactivity overhead
 
 ```vue
@@ -74,7 +77,7 @@ dynamicComponent.value = markRaw(MyComponent); // Prevent reactivity
   <button @[eventHandler]="sendFetchAccess"/>
 </template>
 ```
-## `defineComponent`
+# `defineComponent`
 
 ```ts
 const quasarBtn = defineComponent((props) => () => h(QBtn, <QBtnProps>{
@@ -96,7 +99,7 @@ props: {
 ```
 
 
-## Export && Import
+# Export && Import
 ```ts
 export default function useMouse() {
 }
@@ -105,7 +108,7 @@ export { default as HomeView } from "./index.vue";
 import useMouse, {useCounter} from "path_example";
 ```
 
-## Style binding
+# Style binding
 ```vue
 <style>
 .dynamic {
@@ -113,7 +116,7 @@ import useMouse, {useCounter} from "path_example";
 }
 </style>
 ```
-## RemoveUnNecessaryAttribute
+# Remove un Necessary Attribute
 ```vue
 <script setup lang="ts">
 	const title = "title";
@@ -125,5 +128,4 @@ import useMouse, {useCounter} from "path_example";
 	<button v-bind:[title]="undefined"/>
 </template>
 ```
-
 
