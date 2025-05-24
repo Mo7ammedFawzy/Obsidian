@@ -50,7 +50,7 @@
 
 # Basic Data Types
 
-- **Primitive Types:** Java has **eight primitive types**[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=1%C2%BD4%2F2014%20Page%2021%20Table%201,value%20%27a%27%20There%E2%80%99s%20a%20lot):
+- **Primitive Types:** Java has **eight primitive types:
     
     - `byte` (8-bit signed integer, –128 to 127)
         
@@ -58,63 +58,51 @@
         
     - `int` (32-bit signed integer)
         
-    - `long` (64-bit signed integer) – suffix with `L` if literal is outside `int` range[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=an%20int,But%20please%20use)
+    - `long` (64-bit signed integer) – suffix with `L` if literal is outside `int` range
         
-    - `float` (32-bit floating-point) – suffix literal with `f` (e.g. `3.14f`)[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=1%C2%BD4%2F2014%20Page%2021%20Table%201,value%20%27a%27%20There%E2%80%99s%20a%20lot)
+    - `float` (32-bit floating-point) – suffix literal with `f` (e.g. `3.14f`)
         
     - `double` (64-bit floating-point) – default for decimal literals (e.g. `3.14` is a double)
         
-    - `char` (16-bit Unicode character) – literals in single quotes, e.g. `'A'`[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=1%C2%BD4%2F2014%20Page%2021%20Table%201,value%20%27a%27%20There%E2%80%99s%20a%20lot)
+    - `char` (16-bit Unicode character) – literals in single quotes, e.g. `'A'`
         
-    - `boolean` (true/false) – holds one of the two values `true` or `false`[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=1%C2%BD4%2F2014%20Page%2021%20Table%201,value%20%27a%27%20There%E2%80%99s%20a%20lot).
+    - `boolean` (true/false) – holds one of the two values `true` or `false`.
         
 - **Examples:**
-    
-    java
-    
-    Copy code
-    
-    `int age = 30;            // 32-bit integer long population = 7_800_000_000L;  // 64-bit long (suffix L) float f = 3.14f;         // 32-bit float (suffix f) double d = 3.14159;      // 64-bit double (no suffix needed) char letter = 'A';       // Unicode character boolean valid = true;    // boolean value`
-    
-    Numeric literals are `int` by default; use suffix `L` for longs (to avoid overflow)[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=an%20int,But%20please%20use) and `F` for floats. Java also supports other bases: prefix `0` for octal, `0x` or `0X` for hexadecimal, and `0b` or `0B` for binary literals[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=digits%200%E2%80%939,You%E2%80%99ll%20have%20to).
-    
-- **Reference Types vs. Primitives:** All non-primitive types (like classes and arrays) are reference types. A reference variable (e.g. `String s = "Hello";`) points to an object in memory, whereas a primitive variable holds its actual value[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=Reference%20Types%20A%20reference%20type,Suppose%20we%20declare%20a). For example, `int x = 5;` stores the value `5`, but `String s = "hi";` stores a reference to a `String` object. Reference types can be `null` (no object), while primitives cannot.
-    
+	```java
+	int age = 30;            // 32-bit integer
+	long population = 7_800_000_000L;  // 64-bit long (suffix L)
+	float f = 3.14f;         // 32-bit float (suffix f)
+	double d = 3.14159;      // 64-bit double (no suffix needed)
+	char letter = 'A';       // Unicode character
+	boolean valid = true;    // boolean value`
+	```
+`TODO`    
+Numeric literals are `int` by default; use suffix `L` for longs (to avoid overflow) and `F` for floats. Java also supports other bases: prefix `0` for octal, `0x` or `0X` for hexadecimal, and `0b` or `0B` for binary literals.
 
-## Basic Syntax and Comments
+**Reference Types vs. Primitives:** All non-primitive types (like classes and arrays) are reference types. A reference variable (e.g. `String s = "Hello";`) **`points to an object in memory(heap)`**, whereas a **`primitive variable holds its actual value(stack)`**. For example, `int x = 5;` stores the value `5`, but `String s = "hi";` stores a reference to a `String` object. Reference types can be **`null`** (no object), while primitives cannot.
+# Basic Syntax and Comments
 
 - **Statements and Blocks:** Most Java statements end with a semicolon `;`. Curly braces `{}` define the body of classes and methods, and group multiple statements into a block. Java is _case-sensitive_: `MyClass` and `myclass` are different identifiers. Reserved words (like `class`, `public`, `int`, etc.) cannot be used as variable or class names.
     
 - **Identifiers:** Variable and class names (identifiers) must start with a letter, `$`, or `_` (by convention letters), and cannot start with a digit. By convention, class names use CamelCase (e.g. `MyClass`), and variable/method names start lowercase (e.g. `myVariable`).
     
-- **Comments:** Java has three comment styles[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=your%20own%20code,This%20special%20syntax%20tells%20the):
+- **Comments:** Java has three comment styles:
     
     - **Single-line:** `// comment...` (ignores text until end-of-line)
         
     - **Multi-line:** `/* ... */` (can span lines)
         
     - **Javadoc:** `/** ... */` (like multi-line, but for documentation tools)
-        
-    
-    Comments are ignored by the compiler and help document code. For example:
-    
-    java
-    
-    Copy code
-    
-    `// This is a single-line comment /* This is a    multi-line comment */`
-    
-- **Packages and Imports:** (Covered in Chapter 1) Java classes can be organized into packages. A source file may begin with a `package` declaration, and `import` statements bring in other classes. For example:
-    
-    java
-    
-    Copy code
-    
-    `package myapp; import java.util.List;`
-    
-    Wildcard imports (`import java.util.*;`) bring in all classes in a package. Naming conflicts (same class name in different packages) can be resolved by using fully qualified names. Formatting (indentation, spacing) is not enforced by the compiler, but good style improves readability.
-    
 
+- **Packages and Imports:** (Covered in Chapter 1) Java classes can be organized into packages. A source file may begin with a `package` declaration, and `import` statements bring in other classes. For example:
+
+    ```java
+    package myapp; 
+    import java.util.List;
+	```
+    
+    Wildcard imports (`import java.util.*;`) bring in all classes in a package. 
 ## Practice / Interview Questions
 
 - **What is the correct signature of the `main()` method in Java?**
@@ -136,8 +124,3 @@
 - **What are the three types of comments in Java, and how are they written?**
     
 - **Give examples of valid and invalid Java identifiers (names).**
-    
-
-Each of these questions targets fundamental Java concepts introduced in Chapter 1 and is typical of certification or interview queries on Java basics.
-
-**Sources:** Boyarsky & Selikoff, _OCA Java SE 8 Programmer I_ (Chapter 1)[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=Fields%20and%20Methods%20Java%20classes,learn%20about%20when%20you%20start)[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=To%20compile%20and%20execute%20this,match%20the%20name%20of%20the)[slideshare.net](https://www.slideshare.net/slideshow/oca-oracle-certified-associate-java-se-8-programmer-i-study-guidepdf/261723502#:~:text=Reference%20Types%20A%20reference%20type,Suppose%20we%20declare%20a); IBM Java documentation[ibm.com](https://www.ibm.com/think/topics/jvm-vs-jre-vs-jdk#:~:text=What%20is%20Java%20Development%20Kit,JDK)[ibm.com](https://www.ibm.com/think/topics/jvm-vs-jre-vs-jdk#:~:text=match%20at%20L184%20,programs%20won%E2%80%99t%20run%20without%20it).
