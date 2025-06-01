@@ -1,4 +1,4 @@
-## Strings and StringBuilder
+## Strings and `StringBuilder`
 
 **Q1:** What is the difference between `String` and `StringBuilder`?
 
