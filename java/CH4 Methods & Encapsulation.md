@@ -1,7 +1,19 @@
 
 ## 1. Designing Methods
 
+<<<<<<< HEAD
 - **Modifiers:** `public`, `protected`, `private`, `static`, `abstract`, `final`, `synchronized` (OCP).
+=======
+- **Signature:** `[modifiers] returnType methodName([parameters]) [throws ...] { body }`
+    
+- **Modifiers:** `public`, `protected`, `private`, `static`, `abstract`, `final`, `synchronized` (OCP).
+    
+- **Return type:** Must match method’s `return` statements; `void` if no return value.
+    
+- **Parameters:** Comma‑separated list of `type name` pairs.
+    
+
+>>>>>>> origin/main
 ### Code Example
 
 ```java
@@ -9,19 +21,34 @@ public static double calculateArea(double radius) {
     return Math.PI * radius * radius;
 }
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 ### Interview Questions
 
 - Q: What parts make up a method signature in Java?
     
 - A: Access modifiers, return type, method name, parameter list (and thrown exceptions for overloading).
     
+<<<<<<< HEAD
 ---
 ## 2. Varargs
+=======
+
+---
+
+## 2. `Varargs`
+>>>>>>> origin/main
 
 - **Syntax:** `method(Type... name)` allows 0+ arguments as an array.
     
 - **Rules:** Must be the last parameter. You cannot have two varargs.
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/main
 ### Code Example
 
 ```java
@@ -31,9 +58,17 @@ public void logMessages(String prefix, String... messages) {
     }
 }
 ```
+<<<<<<< HEAD
 ### Interview Questions
 
 - Q: How does Java treat varargs under the hood?
+=======
+
+### Interview Questions
+
+- Q: How does Java treat varargs under the hood?
+    
+>>>>>>> origin/main
 - A: As an array of that type (`String...` becomes `String[]`).
     
 
@@ -41,12 +76,21 @@ public void logMessages(String prefix, String... messages) {
 
 ## 3. Access Modifiers
 
+<<<<<<< HEAD
 | Modifier    | Same Class | Package | Subclass | World |
 | ----------- | ---------- | ------- | -------- | ----- |
 | `public`    | ✓          | ✓       | ✓        | ✓     |
 | `protected` | ✓          | ✓       | ✓        | ✗     |
 | _(default)_ | ✓          | ✓       | ✗        | ✗     |
 | `private`   | ✓          | ✗       | ✗        | ✗     |
+=======
+|Modifier|Same Class|Package|Subclass|World|
+|---|---|---|---|---|
+|`public`|✓|✓|✓|✓|
+|`protected`|✓|✓|✓|✗|
+|_(default)_|✓|✓|✗|✗|
+|`private`|✓|✗|✗|✗|
+>>>>>>> origin/main
 
 ### Code Example
 
@@ -67,7 +111,10 @@ class Person {
     
 
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 ## 4. Static Methods & Fields
 
 - Belong to the **class**, not instances.
@@ -75,6 +122,10 @@ class Person {
 - Invoked as `ClassName.method()` or `method()` within same class.
     
 - **Static initializer:** `static { ... }` runs once at class load.
+<<<<<<< HEAD
+=======
+    
+>>>>>>> origin/main
 
 ### Code Example
 
@@ -105,7 +156,10 @@ public class MathUtil {
     
 - **Passing primitives vs. objects:** Primitives are passed by value; object references passed by value (the object itself is not copied).
     
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 ### Code Example
 
 ```java
@@ -124,7 +178,10 @@ StringBuilder s = new StringBuilder("Hi"); process(s); // s becomes "Hi!"
     
 
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 ## 6. Constructors & Initialization
 
 - **Default constructor:** Provided if no constructors are defined.
@@ -204,6 +261,10 @@ names.stream().filter(isLong).forEach(System.out::println);
     
 - A: Exactly one abstract method; default/static methods are allowed.
     
+<<<<<<< HEAD
 
 ---
 
+=======
+---
+>>>>>>> origin/main
