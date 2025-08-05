@@ -1,6 +1,6 @@
 # `Java Class` Structure
 
-- **Classes and Members:** Java programs are built fro[[README]]m _classes_
+- **Classes and Members:** Java programs are built from _classes_
 - A **`Java class`** is a **template** for creating objects, defining their state (fields) and behavior (methods, functions).
 	```java
 	public class Animal {

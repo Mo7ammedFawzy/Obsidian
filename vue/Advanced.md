@@ -129,3 +129,19 @@ import useMouse, {useCounter} from "path_example";
 </template>
 ```
 
+
+## Styles
+```vue
+<style scoped>
+/* Targets elements within child components*/
+:deep(.button) {
+background-color: tomato;
+} 
+/* Targets elements globally*/
+:global(body) 
+{ font-family: Inter, sans-serif;
+} /* Targets elements within a components slot (normally controlled by the parent)*/ :slotted(div) {
+color: red; 
+} 
+</style>
+```
