@@ -1,14 +1,16 @@
 ## `ref()`vs `reactive()` vs `shallowRef`
 - `ref()`
-	- Wraps primitive (`number,string,boolean`)
+	- Wraps primitive (`number,string,boolean,object`)
 	- access, mutate inner value via `.value`
 	- ideal for single state
 - `reactive()`
 	- takes an object(`arrays,nested structure`)  and makes all props reactive
-	- access, mutate props without `.value` needed.
+	- `deeply reactive`access, mutate props without `.value` needed.
+	- unwraps all props and makes all nested fields reactive.
 - `shallowRef()`
-	-  not deeply `reactive` only `.value` access is reactive
-	- used for `performance optimizations`of large data structures
+	- only tracks reactivity at the `top level` — changes to nested properties won't trigger re-renders
+	-  not deeply `reactive` only `.value`
+	- used for (`avoid deep reactivity cost`)`performance optimizations`of large data structures
 - `computed` → returns a `value`
 - `watch` → runs a callback on change, for side effect
 # `watchEffect` 
