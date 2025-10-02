@@ -26,7 +26,7 @@
 	- `Vue` Composition `Api` function automatically tracks reactive data
 	- `rerun` in any change
 	- `watchOptions:{immediate:true,deep:true}` can be simplified by  `watchEffect`
-- watch `toValue(target)` => `target` accept [`MaybeRefOrGetter`](Types#MaybeRefOrGetter) `type`
+- watch `toValue(target)` => `target` accept [`MaybeRefOrGetter`](Types.md#MaybeRefOrGetter) `type`
 	```ts
 	watch(()=>toValue(target))
 	```
