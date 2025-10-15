@@ -1,0 +1,25 @@
+### 🔹 Goal:
+
+Ensure only **one instance** of a class exists and provide a **global access point** to it.
+
+### 🔹 Example:
+
+```ts
+class Logger {  
+  private static _instance: Logger;  
+  
+  private constructor() {  
+  }  
+  
+  static getInstance(): Logger {  
+    if (!this._instance) this._instance = new Logger();  
+    return this._instance;  
+  }  
+  
+  log(msg: string) {  
+    console.log(msg);  
+  }  
+}
+```
+
+✅ `Logger.getInstance()` always returns the same object — used for logging, configuration, etc.
