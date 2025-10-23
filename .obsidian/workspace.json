@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Design Pattern/1-Creational/🏭 4. Factory Pattern.md",
+                "file": "Programming/java/CH1 QA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🏭 4. Factory Pattern"
+              "title": "CH1 QA"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 209.5
   },
   "right": {
     "id": "ad1a90bf0ed65443",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Design Pattern/1-Creational/🏭 4. Factory Pattern.md",
+                "file": "Programming/java/CH1 QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 🏭 4. Factory Pattern"
+              "title": "Backlinks for CH1 QA"
             }
           },
           {
@@ -169,6 +169,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "6d2d31371816955d",
-  "lastOpenFiles": []
+  "active": "db75808e4c5ad0ee",
+  "lastOpenFiles": [
+    "Programming/java/Ch1 Java Building Blocks.md",
+    "Programming/java/CH1 QA.md",
+    "Programming/Design Pattern/1-Creational/🏭 4. Factory Pattern.md",
+    "Programming/Design Pattern/1-Creational/🧱 1. Singleton Pattern.md~"
+  ]
 }
