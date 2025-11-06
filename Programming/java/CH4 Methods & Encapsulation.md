@@ -76,14 +76,6 @@ public void logMessages(String prefix, String... messages) {
 
 ## 3. Access Modifiers
 
-<<<<<<< HEAD
-| Modifier    | Same Class | Package | Subclass | World |
-| ----------- | ---------- | ------- | -------- | ----- |
-| `public`    | ✓          | ✓       | ✓        | ✓     |
-| `protected` | ✓          | ✓       | ✓        | ✗     |
-| _(default)_ | ✓          | ✓       | ✗        | ✗     |
-| `private`   | ✓          | ✗       | ✗        | ✗     |
-=======
 |Modifier|Same Class|Package|Subclass|World|
 |---|---|---|---|---|
 |`public`|✓|✓|✓|✓|
@@ -91,7 +83,6 @@ public void logMessages(String prefix, String... messages) {
 |_(default)_|✓|✓|✗|✗|
 |`private`|✓|✗|✗|✗|
 >>>>>>> origin/main
-
 ### Code Example
 
 ```java

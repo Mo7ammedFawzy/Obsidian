@@ -102,26 +102,13 @@ String s = "Hello"; // reference to object
   
 ## 🧾 7. Syntax & Identifiers  
   
-**Q: What are statements and blocks?**  - Each statement ends with `;`  - `{}` groups multiple statements    
-  
 **Q: What are valid identifier rules?**  - Start with letter, `_`, or `$`  - Cannot start with a digit    
 - Case-sensitive    
 ✅ `age`, `_name`, `$salary`  ❌ `2value`, `class`, `my-variable`  
   
 ---  
   
-## 💬 8. Comments in Java  
-  
-**Q: What are the three comment types?**  
-```java  
-// Single-line comment  
-/* Multi-line comment */  
-/** Javadoc comment (for documentation) */  
-```  
-  
----  
-  
-## 📦 9. Packages & Imports  
+## 📦 8. Packages & Imports  
   
 **Q: What are packages in Java?**  They group related classes and interfaces.  
   
