@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT.md",
+                "file": "Programming/java/Ch1 Java Building Blocks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "Ch1 Java Building Blocks"
             }
           }
         ],
@@ -186,6 +186,7 @@
   },
   "active": "ac0227fa7552b4b4",
   "lastOpenFiles": [
+    "GIT.md",
     "Programming/java/Ch1 Java Building Blocks.md",
     "Islamic/تدبر/1- الفاتحة.md",
     "Islamic/تدبر/أساسي.md",
@@ -204,7 +205,6 @@
     "Programming/java/CH3 Core Java APIs (Study Summary).md",
     "Programming/java/CH2 QA.md",
     "Programming/java/Ch2 Operators and Statements.md",
-    "GIT.md",
     "Programming/Design Pattern/1-Creational/🏭 4. Factory Pattern.md"
   ]
 }

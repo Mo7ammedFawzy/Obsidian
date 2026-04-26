@@ -10,13 +10,14 @@
 	```
 - The `main()` Method (Entry Point)
 	- **Signature:** Execution begins with the `main`
-		``` java 
-		 public class Zoo {
-				public static void main(String[] args) {
-					// program statements
-				}
-			}
-		 ```
+```java
+ public class Zoo {
+		public static void main(String[] args) {
+			// program statements
+		}
+	}
+```
+	
 	- `public`: (`accessible everywhere`) access modifier allowing the JVM to call this method from outside the class 
 	- `static`: (`belongs to the class, not an object`) means the JVM can invoke `main()` without creating an object instance. The JVM effectively does `Zoo.main()` behind the scenes.
 	- `void`: indicates `main()` returns no value
