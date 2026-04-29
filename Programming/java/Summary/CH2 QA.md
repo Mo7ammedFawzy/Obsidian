@@ -134,23 +134,7 @@ if (score > 90) grade = 'A';
 ```
 
 ---
-
-### Q13: How does an `if-else` chain work?
-
-**A:**  
-Checks sequentially; only the first true condition runs.
-
----
-
-### Q14: When should you use `switch` instead of `if-else`?
-
-**A:**  
-Use `switch` for comparing one variable to fixed constants.  
-`if-else` is better for ranges or complex conditions.
-
----
-
-### Q15: What data types are valid in a `switch` expression?
+What data types are valid in a `switch` expression?
 
 **A:**  
 `byte`, `short`, `char`, `int`, `enum`, and `String`.

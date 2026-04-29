@@ -1,8 +1,8 @@
-## 1. Strings and `StringBuilder`
+## 1. Strings and`StringBuilder`
 
 ### Strings (Immutable)
 
-- Once created, the contents of a `String` cannot change.
+- Once created, the contents of a `String`cannot change.
     
 - Benefits: thread-safety, safe sharing via the String pool, predictable behavior.
     
@@ -14,7 +14,7 @@
         
     - `toLowerCase()`, `toUpperCase()`, `trim()`
         
-- **Comparison:** Always use `equals()` for content equality; `==` checks reference equality.
+- **Comparison:** Always use `equals()`for content equality; `==` checks reference equality.
     
     ```java
     String s1 = "hello";

@@ -14,7 +14,8 @@ public static void main(String[] args) {
     // program starts here}  
 ```  
   
-**Q: Explain each part of `public static void main(String[] args)`.**  - `public` → accessible everywhere    
+**Q: Explain each part of `public static void main(String[] args)`.**  
+- `public` → accessible everywhere    
 - `static` → runs without creating an object    
 - `void` → no return value    
 - `String[] args` → holds command-line arguments    
@@ -113,7 +114,8 @@ String s = "Hello"; // reference to object
 **Q: What are packages in Java?**  They group related classes and interfaces.  
   
 ```java  
-package myapp; import java.util.List;  
+package myapp;
+import java.util.List;  
 ```  
   
 **Q: What does `import java.util.*;` do?**  It imports all classes from `java.util` package.  
