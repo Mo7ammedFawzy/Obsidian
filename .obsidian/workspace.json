@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a52b5cdad839e6e",
+            "id": "f8e7f791a7ffd070",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/java/Claude/CH3.md",
+                "file": "Programming/SpringBoot/C1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH3"
+              "title": "C1"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 200
   },
   "right": {
     "id": "ad1a90bf0ed65443",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/java/CH4 Methods & Encapsulation.md",
+                "file": "Programming/Design Pattern/1-Creational/🏭 4. Factory Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CH4 Methods & Encapsulation"
+              "title": "Backlinks for 🏭 4. Factory Pattern"
             }
           },
           {
@@ -169,43 +169,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "2a52b5cdad839e6e",
+  "active": "f8e7f791a7ffd070",
   "lastOpenFiles": [
-    "Programming/java/Claude/CH2.md",
     "Programming/java/Claude/CH1.md",
+    "Programming/SpringBoot/C1.md",
+    "Programming/java/Ch1 Java Building Blocks.md",
+    "Programming/java/ocp-oracle-certified-professional-java.pdf",
+    "Programming/java/Summary/CH6 QA.md",
+    "Programming/java/Summary/CH6 Class Design.md",
+    "Programming/java/Summary/CH5 QA.md",
+    "Programming/java/Summary/CH5 Methods & Encapsulation.md",
+    "Programming/java/Summary/CH4 QA.md",
+    "Programming/java/Summary/CH4 Core APIs.md",
+    "Programming/java/Summary/CH3 QA.md",
     "Programming/java/Summary/CH3 Making Decisions.md",
-    "Programming/java/Claude/CH6_QA.md",
-    "Programming/java/Claude/CH6.md",
-    "Programming/java/Claude/CH5_QA.md",
-    "Programming/java/Claude/CH5_QA.md.tmp.17704.1777372938504",
-    "Programming/java/Claude/CH5.md",
-    "Programming/java/Claude/CH5.md.tmp.17704.1777372893752",
-    "Programming/java/Claude/CH4_QA.md",
-    "Programming/java/Claude/CH4.md",
-    "Programming/java/Claude/CH4.md.tmp.17704.1777372776451",
-    "Programming/java/Claude/CH3_QA.md",
-    "Programming/java/Claude/CH3_QA.md.tmp.17704.1777372689074",
-    "Programming/java/Claude/CH3.md",
-    "Programming/java/Claude/CH2_QA.md",
-    "Programming/java/Claude/CH2_QA.md.tmp.17704.1777372574277",
-    "Programming/java/Claude/CH2.md.tmp.17704.1777372533415",
-    "Programming/java/Claude/CH1_QA.md",
-    "Programming/java/Claude/CH1_QA.md.tmp.17704.1777372455981",
-    "Programming/java/Claude/CH1.md.tmp.17704.1777372419401",
-    "Programming/java/Claude/CH14_QA.md",
-    "Programming/java/Claude/CH14.md",
-    "Programming/java/Claude/CH14.md.tmp.17704.1777364039895",
-    "Programming/java/Claude/CH13_QA.md",
-    "Programming/java/Claude/CH13.md",
-    "Programming/java/Claude/CH12_QA.md",
-    "Programming/java/Claude/CH12_QA.md.tmp.17704.1777363841885",
-    "Programming/java/Claude/CH12.md",
-    "Programming/java/Claude/CH10_QA.md",
-    "Programming/java/Claude/CH10.md",
+    "Programming/java/Summary/Ch2 Operators and Statements.md",
+    "Programming/java/Summary/CH2 QA.md",
+    "Programming/java/Summary/CH11 QA.md",
+    "Programming/java/Summary/CH11 Exceptions and Localization.md",
+    "Programming/java/Summary/Ch1 Java Building Blocks.md",
+    "Programming/java/Summary/CH1 QA.md",
+    "Programming/java/Summary",
     "Programming/java/Claude/CH9_QA.md",
     "Programming/java/Claude/CH9.md",
     "Programming/java/Claude/CH8_QA.md",
     "Programming/java/Claude/CH8.md",
-    "Programming/java/Claude/CH7_QA.md"
+    "Programming/java/Claude/CH7_QA.md",
+    "Programming/java/Claude/CH7.md",
+    "Programming/java/Claude/CH6.md",
+    "Programming/java/Claude/CH6_QA.md",
+    "Programming/java/Claude/CH5_QA.md",
+    "Programming/java/Claude",
+    "Programming/SpringBoot",
+    "Islamic/تدبر"
   ]
 }
